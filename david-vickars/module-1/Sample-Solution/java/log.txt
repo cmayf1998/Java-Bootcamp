@@ -1,0 +1,7 @@
+Mon Jul 20 09:35:54 EDT 2020: Money added : $5.00 : $5.00
+Mon Jul 20 09:36:00 EDT 2020: Money added : $5.00 : $10.00
+Mon Jul 20 09:36:02 EDT 2020: Item selected : B2 Cowtales $1.50 Available: 4 : $8.50
+Mon Jul 20 09:36:08 EDT 2020: Item selected : A1 Potato Crisps $3.05 Available: 4 : $5.45
+Mon Jul 20 09:36:12 EDT 2020: Item selected : D2 Little League Chew $0.95 Available: 4 : $4.50
+Mon Jul 20 09:36:16 EDT 2020: Item selected : A1 Potato Crisps $3.05 Available: 3 : $1.45
+Mon Jul 20 09:36:31 EDT 2020: Change returned : 5 quarters 2 dimes

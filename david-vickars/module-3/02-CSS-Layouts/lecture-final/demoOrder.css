@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+}
+
+ul#flex-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* 1 */ display: flex;
+  /* 6 - default if not specified - play with settings */ 
+  flex-direction: row;
+  /* 8 - default nowrap - play with settings */ 
+  /* then leave as wrap */ flex-wrap: wrap;
+  /* 10  default is left - play with settings */ 
+  justify-content: space-around;
+}
+
+ul li {
+  /* 2 */ /* flex-grow: 1;  9  remove this */
+  /* 7 - and remove flex-grow below */ width:100px;
+  height: 150px;
+  padding-top: 45px;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+ul li:first-child {
+  background-color: blue;
+  /* 5 then comment out  order: 2;*/
+}
+ul li:nth-child(2) {
+  background-color: yellow;
+  /* 3  flex-grow: 2;*/
+}
+ul li:nth-child(3) {
+  background-color: green;
+}
+ul li:nth-child(4) {
+  background-color: red;
+  /* 4  flex-grow: 5;*/
+}
+ul li:nth-child(5) {
+  background-color: magenta
+  ;
+}
+ul li:last-child {
+  background-color: gray;
+}

@@ -1,0 +1,86 @@
+:root {
+    --blue: #00adee;
+    --grey: #505355;
+}
+  
+* {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+#student-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+     "student-quote student-pic"
+     "profile-text contact-info"
+     "experience  experience";
+     grid-gap: 10px;
+}
+
+#student-quote{
+    grid-area: student-quote;
+    font-size: 20px;
+}
+
+#student-pic{
+    grid-area: student-pic;
+}
+
+#profile-text{
+    grid-area: profile-text;
+}
+
+#contact-into{
+    grid-area: contact-info;
+}
+
+#experience{
+    grid-area: experience;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+}   
+
+div#experience > div{
+width: 33%;
+padding-right: 30px;
+}
+
+#te-logo {
+    height: 25px;
+    padding-left: 70px;
+}
+
+h1>img {
+    border-radius: 20%;
+}
+
+#student-contact{
+    margin: 0 auto;
+    font-style: italic;
+}
+
+h3{
+color: var(--blue);
+}
+
+div > img {
+  border-radius: 110%;  
+}
+
+main{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.headline{
+    font-size: 70px;
+}
+
+#student-profile{
+    bottom: 80px;
+}
